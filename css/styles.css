@@ -1,0 +1,312 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Commissioner', sans-serif;
+  height: 100%;
+  background-image: url(../images/image-hero-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 60%;
+}
+
+button:focus {
+  outline: none;
+}
+
+a.navbar-brand {
+  margin-left: 5%;
+}
+
+ul.navbar-nav {
+  margin-left: 78%;
+}
+
+ul.navbar-nav li.nav-item a.nav-link {
+  color: white;
+}
+
+.action-page-body {
+  font-family: 'Commissioner', sans-serif;
+  background-image: none;
+  text-align: center;
+  margin-top: 20%;
+  overflow-y: hidden;
+}
+
+.navbar {
+  margin-top: 5%;
+}
+
+.main-body {
+  background-color: #f4f9f9;
+  margin-top: 21%;
+  height: 270%;
+}
+
+.mastercraft-div {
+  position: relative;
+  text-align: center;
+  background-color: white;
+  height: 270px;
+  width: 700px;
+  border-radius: 20px;
+  margin-left: 25%;
+  bottom: 100px;
+  padding: 50px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.mastercraft h3 {
+  font-weight: 800;
+}
+
+.mastercraft-div p{
+  font-weight: 400;
+  margin-top: 20px;
+  color: hsl(0, 0%, 48%);
+}
+
+.mastercraft-div button {
+  margin-top: 20px;
+}
+
+.mastercraft-div .logo {
+  position: absolute;
+  top: -10%;
+  left: 46%;
+}
+
+.back-project-btn {
+	background-color:hsl(176, 50%, 47%);
+	border-radius:28px;
+	border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px grey;
+}
+.back-project-btn:hover {
+	background-color:hsl(176, 72%, 28%);
+}
+.back-project-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.bookmark-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.bookmark-btn {
+	background-color:hsl(0, 0%, 48%);
+	border-radius:28px;
+	border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding: 10px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px grey;
+}
+.bookmark-btn:hover {
+	background-color:hsl(0, 0%, 52%);
+}
+.bookmark-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.backers-div {
+  position: relative;
+  text-align: center;
+  background-color: white;
+  height: 220px;
+  width: 700px;
+  border-radius: 20px;
+  margin-left: 25%;
+  bottom: 10px;
+  padding: 50px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.backers-div h2 {
+  font-weight: 800;
+}
+
+.backers-div p {
+  font-weight: 400;
+  color: hsl(0, 0%, 48%);
+}
+
+.middle-box {
+  border-left-style: solid;
+  border-right-style: solid;
+  border-width: 2px;
+  border-color: hsl(0, 0%, 48%);
+}
+
+.about-div {
+  position: relative;
+  background-color: white;
+  height: 1350px;
+  width: 700px;
+  border-radius: 20px;
+  margin-left: 25%;
+  top: 100px;
+  padding: 50px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.about-div h3 {
+  margin-bottom: 50px;
+}
+
+.about-div p {
+  margin-bottom: 30px;
+  color: hsl(0, 0%, 48%);
+  font-weight: 400;
+}
+
+.options .pledge {
+  color: hsl(176, 50%, 47%);
+}
+
+.small {
+  color: hsl(0, 0%, 48%);
+  font-size: 60%;
+}
+
+.options {
+  position: relative;
+  background-color: white;
+  height: 270px;
+  width: 610px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsl(0, 0%, 48%);
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.subtitle {
+  font-size: 70%;
+  color: hsl(0, 0%, 48%);
+}
+
+
+
+.select-reward-btn {
+	background-color:hsl(176, 50%, 47%);
+	border-radius:28px;
+	border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:11px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px grey;
+  margin-left: 20px;
+}
+.select-reward-btn:hover {
+	background-color:hsl(176, 72%, 28%);
+}
+.select-reward-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.out-of-stock-btn {
+	background-color:hsl(0, 0%, 48%);
+	border-radius:28px;
+	border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:hsl(0, 0%, 68%);
+	font-family:Arial;
+	font-size:17px;
+	padding: 11px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px grey;
+}
+.out-of-stock-btn:hover {
+	background-color:hsl(0, 0%, 52%);
+}
+.out-of-stock-btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.bottom-row {
+  border-bottom: solid;
+  border-color: grey;
+  border-width: 1px;
+  margin-bottom: 30px;
+}
+
+.pledge-amount {
+  border-radius: 20px;
+  margin-right: 50px;
+  width: 100px;
+}
+
+.continue-btn {
+	background-color:hsl(176, 50%, 47%);
+	border-radius:28px;
+	border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:4px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px grey;
+  margin-left: 20px;
+}
+.continue-btn:hover {
+	background-color:hsl(176, 72%, 28%);
+}
+.continue-btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.close-btn {
+	background-color: hsl(0, 0%, 55%);
+	border-radius:28px;
+	border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:4px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px grey;
+  margin-left: 20px;
+}
+.close-btn:hover {
+	background-color:hsl(0, 0%, 30%);
+}
+.close-btn:active {
+	position:relative;
+	top:1px;
+}
+
+#file {
+  width: 100%;
+  margin-top: 15px;
+}
